@@ -255,6 +255,7 @@ img {
 .contact-section h2 {
   margin: 0 0 16px;
   font-size: clamp(1.4rem, 2vw, 2rem);
+  color: var(--accent);
 }
 
 .footer {
