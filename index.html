@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonie Carter — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Leonie Carter, a multidisciplinary designer crafting digital experiences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a href="#home" class="brand">LC</a>
+        <nav class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="home">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Designer • Strategist • Creative Developer</p>
+            <h1>I build thoughtful digital experiences that feel calm, clear, and memorable.</h1>
+            <p class="lead">
+              I partner with founders and teams to shape brands, websites, and products with a refined point of view.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#work">See selected work</a>
+              <a class="button secondary" href="#contact">Let’s talk</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="Featured highlight">
+            <p class="card-label">Current focus</p>
+            <h2>Design systems for ambitious modern brands.</h2>
+            <p>
+              Thoughtful interfaces, strategic storytelling, and front-end execution that scales with your vision.
+            </p>
+          </div>
+        </section>
+
+        <section id="work" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Recent projects that balance strategy and craft.</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-meta">Branding / Website</div>
+              <h3>Northstar Studio</h3>
+              <p>Reimagined a creative agency’s digital presence with a vivid editorial experience.</p>
+            </article>
+            <article class="project-card">
+              <div class="project-meta">Product design</div>
+              <h3>Atelier Notes</h3>
+              <p>Designed a calm workspace for collaboration, knowledge sharing, and daily workflows.</p>
+            </article>
+            <article class="project-card">
+              <div class="project-meta">Digital launch</div>
+              <h3>Vanta House</h3>
+              <p>Shaped a launch campaign and online experience for a boutique hospitality brand.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="about" class="section about-section">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Designing with clarity, warmth, and intention.</h2>
+          </div>
+          <div class="about-grid">
+            <p>
+              I’m Leonie, a multidisciplinary designer creating digital experiences for brands that care about feeling as much as function.
+              My work often sits at the intersection of visual identity, storytelling, and front-end implementation.
+            </p>
+            <div class="skills-list">
+              <span>Visual Identity</span>
+              <span>Web Design</span>
+              <span>Creative Direction</span>
+              <span>Front-end Development</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s create something distinctive together.</h2>
+          <a class="button primary" href="mailto:hello@leoniecarter.com">hello@leoniecarter.com</a>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Leonie Carter. Crafted with care.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
