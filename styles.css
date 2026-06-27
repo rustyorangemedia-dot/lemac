@@ -139,12 +139,12 @@ img {
 
 .button.primary {
   background: var(--text);
-  color: #B0C4DE;
+  color: #FFFFFF;
 }
 
 .button.secondary {
   border: 1px solid var(--line);
-  color: #B0C4DE;
+  color: #FFFFFF;
 }
 
 .hero-card,
