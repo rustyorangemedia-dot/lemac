@@ -1,10 +1,10 @@
 :root {
   color-scheme:  /* Olive Green */;
-  --bg: #808000;
+  --bg: #B0C4DE;
   --panel: #101724;
   --panel-2: #171f2c;
-  --text: #f4efe8;
-  --muted: #f4efe8;
+  --text: #0B2030;
+  --muted: #0B2030;
   --accent: #d4b07a;
   --line: rgba(255, 255, 255, 0.11);
   --hero-max-width: 420px;
