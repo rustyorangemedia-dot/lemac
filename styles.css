@@ -242,7 +242,7 @@ img {
   background: var(--panel-2);
   border: 1px solid var(--line);
   border-radius: 999px;
-  color: var(--text);
+  color: #B0C4DE;
   font-size: 0.95rem;
 }
 
