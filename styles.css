@@ -1,5 +1,5 @@
 :root {
-  color-scheme: olive green;
+  color-scheme:  /* Olive Green */;
   --bg: #808000;
   --panel: #101724;
   --panel-2: #171f2c;
@@ -23,7 +23,7 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background: radial-gradient(circle at top, #121a28 0%, var(--bg) 50%, #04070b 100%);
+  background: radial-gradient(circle at top, #9a9a00 0%, var(--bg) 55%, #606000 100%);
   color: var(--text);
   line-height: 1.6;
 }
