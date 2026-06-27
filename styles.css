@@ -7,6 +7,9 @@
   --muted: #8f97a7;
   --accent: #d4b07a;
   --line: rgba(255, 255, 255, 0.11);
+  --hero-max-width: 420px;
+  --hero-radius: 8px;
+  --hero-shadow: 0 8px 20px rgba(0,0,0,0.28);
 }
 
 * {
@@ -27,6 +30,23 @@ body {
 
 img {
   max-width: 100%;
+}
+
+/* Hero media container and image */
+.hero-media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: var(--hero-max-width);
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--hero-radius);
+  box-shadow: var(--hero-shadow);
 }
 
 .page-shell {
@@ -253,6 +273,10 @@ img {
 
   .hero-card {
     order: -1;
+  }
+
+  .hero-image {
+    max-width: 100%;
   }
 }
 
