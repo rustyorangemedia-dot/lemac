@@ -310,6 +310,12 @@ img {
   margin-top: 12px;
 }
 
+.image-row.two-up > .image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .image-row.two-up .hero-media {
   margin: 0;
   display: flex;
@@ -330,5 +336,10 @@ img {
 @media (max-width: 900px) {
   .image-row.two-up {
     grid-template-columns: 1fr;
+  }
+
+  .image-row.two-up > .image-column {
+    flex-direction: row;
+    gap: 1rem;
   }
 }
