@@ -300,3 +300,35 @@ img {
     padding-top: 10px;
   }
 }
+
+/* Two-up image row for desktop; stacks on small screens */
+.image-row.two-up {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;          /* adjust spacing between images */
+  align-items: start;
+  margin-top: 12px;
+}
+
+.image-row.two-up .hero-media {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-row.two-up .hero-image {
+  width: 100%;
+  max-width: none;    /* allow images to expand to the grid cell */
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--hero-radius);
+  box-shadow: var(--hero-shadow);
+}
+
+/* Responsive: stack on smaller screens (matches existing breakpoint) */
+@media (max-width: 900px) {
+  .image-row.two-up {
+    grid-template-columns: 1fr;
+  }
+}
