@@ -228,6 +228,11 @@ img {
   margin-top: 22px;
 }
 
+.about-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-grid p {
   color: var(--muted);
   margin: 0;
@@ -265,6 +270,11 @@ img {
   color: var(--muted);
   text-align: center;
   font-size: 0.92rem;
+}
+
+.versatility-card {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 900px) {
